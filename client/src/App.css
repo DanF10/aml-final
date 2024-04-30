@@ -1,0 +1,47 @@
+.conversation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .conversation > * {
+    width: 100%;
+    max-width: 600px; /* Adjust as needed */
+  }
+  
+  .sender-name,
+  .message {
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+  .sender-name {
+    font-weight: bold;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  textarea {
+    width: 100%;
+    max-width: 600px; /* Adjust as needed */
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Adjust as needed */
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Adjust as needed */
+  }
+  
